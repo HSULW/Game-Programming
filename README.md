@@ -19,6 +19,6 @@ NTNU 111-2 COURSE : Learn to Code: Images, Animation, and Games A group
 ### code
 >**
 [0406 Demo 1](https://github.com/HSULW/Game-Programming/commit/fa6485e7d74447c34ae19deea2c06569146cdf6d)<br />
-Countdown speed test without correct key pressed.
+Countdown speed test without correct key pressed.**
 
 
