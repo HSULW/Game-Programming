@@ -2,8 +2,10 @@
 NTNU 111-2 course : Learn to Code: Images, Animation, and Games A group 
 
 
-## Project 1
-### requirement
+Project 1
+=========
+requirement
+---------
 • 遊戲目標<br />
 • 由鍵盤或鼠標控制<br />
 • 需有得分顯示在屏幕上<br />
