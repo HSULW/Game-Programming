@@ -14,7 +14,7 @@ NTNU 111-2 COURSE : Learn to Code: Images, Animation, and Games A group
 • 將一段註釋放在代碼的頂部<br />
 &ensp;– 寫下團隊成員的名字<br />
 &ensp;– 簡要介紹您的遊戲<br />
-&ensp;– 介紹如何玩遊戲，如何獲得積分，怎樣會失敗。  
+&ensp;– 介紹如何玩遊戲，如何獲得積分，怎樣會失敗
 
 ### code
 
