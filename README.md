@@ -12,9 +12,9 @@ NTNU 111-2 COURSE : Learn to Code: Images, Animation, and Games A group
 • 要有遊戲失敗<br />
 • 至少在某種程度上具有視覺吸引力<br />
 • 將一段註釋放在代碼的頂部<br />
-&nbsp– 寫下團隊成員的名字<br />
-&nbsp– 簡要介紹您的遊戲<br />
-&nbsp– 介紹如何玩遊戲，如何獲得積分，怎樣會失敗。  
+&emsp;– 寫下團隊成員的名字<br />
+&emsp;– 簡要介紹您的遊戲<br />
+&emsp;– 介紹如何玩遊戲，如何獲得積分，怎樣會失敗。  
 
 ### code
 
