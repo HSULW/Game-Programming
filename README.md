@@ -17,5 +17,8 @@ NTNU 111-2 COURSE : Learn to Code: Images, Animation, and Games A group
 &ensp;– 介紹如何玩遊戲，如何獲得積分，怎樣會失敗
 
 ### code
-
+>** 
+[0406 Demo 1](https://github.com/HSULW/Game-Programming/commit/fa6485e7d74447c34ae19deea2c06569146cdf6d)
+Countdown speed test without correct key pressed.
+**<
 
