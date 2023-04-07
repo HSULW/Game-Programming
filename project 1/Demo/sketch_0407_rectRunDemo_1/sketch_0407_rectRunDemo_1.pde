@@ -34,7 +34,7 @@ void draw(){
 
 void Shapeee(){
   
-  // B = createShape(RECT, 0, 0, 100, 50);
+  B = createShape(RECT, 0, 0, 100, 50);
     C = createShape(RECT, 0, 0, 100, 50);
      D = createShape(RECT, 0, 0, 100, 50);
       E = createShape(RECT, 0, 0, 100, 50);
