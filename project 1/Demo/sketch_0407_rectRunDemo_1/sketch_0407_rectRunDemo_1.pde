@@ -1,15 +1,17 @@
 int positionY;
 color colorRed, colorPink;
-PShape A,B,C,D,E,F,G,H;
-PShape rectangle[];
+int num, rectW;
+PShape[] rectangleV;
 
 void setup(){
-  size(890, 800);
-  positionY = 0;
+  size(1000, 800);
   frameRate(30);
+  positionY = 0;
   colorRed = color(255, 0, 0);
   colorPink = color(240, 128, 128);
-
+  num = int(random(8,20));
+  rectW = width/num;
+  num = (rectW/(num-2));
 }
 
 void draw(){
@@ -17,13 +19,18 @@ void draw(){
   
   fill(colorPink);
   
-  drawRect();
+  //drawRect();
   
   fill(colorRed);
-  Shapeee();
-  //shape(rectangle[0], 100, 100);
   
-  
+ 
+  rectangleV = new PShape[num];
+  for(int i=0 ; i<num ; i++){
+    rectangleV[i] = createShape(RECT, 0, 0, 100, 50);
+  }
+  for(int i=0 ; i<num ; i++){
+    shape(rectangleV[i], i*((width/num)+10) + 5, positionY);
+  }
   
   positionY += 10;
   positionY %= height;
@@ -31,22 +38,3 @@ void draw(){
   
 
 }
-
-void Shapeee(){
-  
-  B = createShape(RECT, 0, 0, 100, 50);
-    C = createShape(RECT, 0, 0, 100, 50);
-     D = createShape(RECT, 0, 0, 100, 50);
-      E = createShape(RECT, 0, 0, 100, 50);
-       F = createShape(RECT, 0, 0, 100, 50);
-        G = createShape(RECT, 0, 0, 100, 50);
-         H = createShape(RECT, 0, 0, 100, 50);
-       
-}
-
-void drawRect(){
- 
-  for(int i=0 ; i<width/100 ; i++){
-    rect(i*110+10, positionY, 100, 50);
-  }
-}   
