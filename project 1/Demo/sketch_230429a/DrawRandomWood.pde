@@ -1,6 +1,6 @@
 void drawRandomwood(){  
   noTint();
-  image(wood, x, y, 100, 100);
+  image(wood, x, y, 174, 174);
   
   timeRate += 1;
   if (start + timeRate > 50) {

@@ -10,7 +10,8 @@ PImage bgimage;
 int passCond = 10;
 int start = 0;
 int level = 1;
-
+PImage fish,bubble;
+int fishX, fishY;
 
 void setup(){
   size(1000,800);
@@ -21,11 +22,19 @@ void setup(){
   
   wood = loadImage("badWood.png");
   bgimage = loadImage("sea.jpg");
+  fish = loadImage("clown-fish.png");
+  bubble = loadImage("bubbles.png");
+  fishX = width / 2;
+  fishY = height;
   imageMode(CENTER);
 }
 
 void draw(){
   image(bgimage, width/2, height/2, width, height);
+  image(fish, fishX, fishY, 50, 50);
+  image(bubble, fishX+50, fishY, 30, 30);
+  fishY --;
+  fishY %= height;
   drawRandomwood();
   recordGrade();
   moveToNextlevel();
