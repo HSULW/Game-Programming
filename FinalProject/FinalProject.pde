@@ -4,17 +4,22 @@ PImage StartPage;
 PImage Start;
 PImage StartTouch;
 PImage Gameplay;
-PShape back, next;
+PImage back, next;
+PImage backT, nextT;
+PImage LevelChoosen;
 
 void setup(){
-  size(1500, 844);
-  imageMode(CENTER);
+  size(1920, 1080);
+  //imageMode(CENTER);
   StartPage = loadImage("StartPage.png");
   Start = loadImage("Start.png");
   StartTouch = loadImage("StartTouch.png");
   Gameplay = loadImage("Gameplay.png");
-  back = loadShape("back.svg");
-  next = loadShape("next.svg");
+  back = loadImage("back.png");
+  next = loadImage("next.png");
+  backT = loadImage("backT.png");
+  nextT = loadImage("nextT.png");
+  LevelChoosen = loadImage("LevelChoosen.png");
 }//end of setup()
 
 void draw(){
@@ -22,25 +27,58 @@ void draw(){
   //image(StartPage, width/2, height/2, width, height);
   
   switch(Scene){
-  case 1://遊戲開始畫面
-    image(StartPage, width/2, height/2, width, height);
-    image(Start, width/2, height/2, width, height);
-    if((mouseX <= 913 && mouseX >= 587)&&(mouseY <= 572 && mouseY >= 472)){
-      image(StartTouch, width/2, height/2, width, height);
-      if(mousePressed == true){
-        Scene += 1;
+    case 1://遊戲開始畫面
+      image(StartPage, 0, 0, width, height);
+      image(Start, 0, 0, width, height);
+      if((mouseX <= 1162 && mouseX >= 752)&&(mouseY <= 745 && mouseY >= 611)){
+        image(StartTouch, 0, 0, width, height);
+        if(mousePressed == true){
+          Scene += 1;
+        }
       }
-    }
-    break;
-    case 2:
-    image(Gameplay, width/2, height/2, width, height);
-    shape(back, 0, 0, width, height);
-    shape(next, 0, 0, width, height);
+      break;
+    case 2://遊戲說明畫面
+      image(Gameplay, 0, 0, width, height);
+      Back();
+      Next();
+      break;
+     case 3://關卡選擇
+       image(LevelChoosen, 0, 0, width, height);
+       Back();
+       break;
+    
   
-  
-  
-  
-  }//enf of switch
+  }//end of switch
   
 
 }//end of draw()
+
+void Back(){
+  image(back, 0, 0, width, height);
+  if((mouseX <= 191 && mouseX >= 26)&&(mouseY <= 645 && mouseY >= 540)){
+    image(backT, 0, 0, width, height);
+    if(mousePressed == true){
+      Scene -= 1;
+    }
+  }
+}//end of Back()
+void Next(){
+  image(next, 0, 0, width, height);
+  if((mouseX <= 1903 && mouseX >= 1738)&&(mouseY <= 645 && mouseY >= 540)){
+    image(nextT, 0, 0, width, height);
+    if(mousePressed == true){
+      Scene += 1;
+    }
+  }
+}//end of Next()
+
+void LevelChoose(){
+  
+
+
+
+
+
+
+
+}//end of LevelChoose()
