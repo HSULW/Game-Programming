@@ -39,7 +39,7 @@ Eight rectangles run from top to bottom.**<br />
 &ensp;– A background animation produced by sprite image in the opening screen. You can find the idea from this [video](https://www.youtube.com/watch?v=xp8a67sGWSo).<br />
 &ensp;– At least three levels of difficulty. The player(s) may or may not be allowed to choose the difficulty level.<br />
 &ensp;– A way to restart after game completion.<br />
-&ensp;– A High Score List, where highest score should be displayed first and lowest score should be displayed last.For space reasons, display only the most recent 5 or 10 scores (you choose how many). Show this screen when the player loses (or wins). This is an [example](http://static.tumblr.com/2edae08a21409269da59ef5c9eadbc08/2lushih/QEbo90b6w/tumblr_ static_c02dfc4twpsk0c0sgwswocc0s.jpg), (but, your score list doesn’t have to have the name column).<br />
+&ensp;– A High Score List, where highest score should be displayed first and lowest score should be displayed last.For space reasons, display only the most recent 5 or 10 scores (you choose how many). Show this screen when the player loses (or wins). This is an example,http://static.tumblr.com/2edae08a21409269da59ef5c9eadbc08/2lushih/QEbo90b6w/tumblr_ static_c02dfc4twpsk0c0sgwswocc0s.jpg, (but, your score list doesn’t have to have the name column).<br />
 
 
 ### final 
