@@ -46,6 +46,7 @@ Eight rectangles run from top to bottom.**<br />
 
 
 ### code demo
-
+>**[0601 Demo 1](https://github.com/HSULW/Game-Programming/blob/main/FinalProject/FinalProject.pde)<br />
+Starting Page Setting**<br />
 
 
